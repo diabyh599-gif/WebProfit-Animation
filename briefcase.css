@@ -1,14 +1,11 @@
 #briefcase{
     position:absolute;
-    left:120px;
+    left:-120px;
     bottom:120px;
     width:90px;
     height:70px;
 
-    opacity:0;
-    transform:scale(0);
-
-    transition:opacity .6s ease, transform .6s ease;
+    transition:left 1.2s ease;
 }
 
 #briefcase.show{
