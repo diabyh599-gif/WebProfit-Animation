@@ -1,14 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const form = document.getElementById("register-container");
     const briefcase = document.getElementById("briefcase");
 
     setTimeout(() => {
-        briefcase.classList.add("show");
+        briefcase.style.left = "120px";
     }, 500);
-
-    setTimeout(() => {
-        form.classList.add("show");
-    }, 1800);
 
 });
