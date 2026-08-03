@@ -9,6 +9,8 @@
     transform:translateX(-200px);
 
     transition:transform 1s ease, opacity .6s ease;
+    
+    transform-origin:center bottom;
 }
 
 #briefcase.show{
