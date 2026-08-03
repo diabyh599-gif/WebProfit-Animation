@@ -1,16 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const briefcase = document.getElementById("briefcase");
-    const form = document.getElementById("register-container");
+    const tl = gsap.timeline();
 
-    // Faire apparaître la mallette
-    setTimeout(() => {
-        briefcase.classList.add("show");
-    }, 500);
+    tl
 
-    // Afficher le formulaire ensuite
-    setTimeout(() => {
-        form.classList.add("show");
-    }, 1800);
+    .from("#character", {
+        x: -400,
+        duration: 2,
+        ease: "power3.out"
+    })
+
+    .from("#briefcase", {
+        scale: 0,
+        opacity: 0,
+        duration: 0.8
+    })
+
+    .to("#briefcase", {
+        y: 40,
+        duration: 0.6
+    })
+
+    .to("#register-container", {
+        opacity: 1,
+        scale: 1,
+        duration: 0.7
+    });
 
 });
