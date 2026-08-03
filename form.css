@@ -14,7 +14,7 @@
 #register-container.show{
     opacity:1;
     transform:scale(1);
-    pointer-events:auto;
+    pointer-évents:none;
 }
 
 .register-card{
