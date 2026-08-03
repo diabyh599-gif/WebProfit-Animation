@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded", () => {
 
-    setTimeout(()=>{
-
-        enterScene();
-
-    },800);
+    setTimeout(() => {
+        document
+            .getElementById("register-container")
+            .classList.add("show");
+    }, 1500);
 
 });
