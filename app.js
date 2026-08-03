@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
-    console.log("WebProfit Animation démarrée.");
+    setTimeout(()=>{
+
+        enterScene();
+
+    },800);
 
 });
