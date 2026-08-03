@@ -1,16 +1,19 @@
 #briefcase{
     position:absolute;
-    left:-120px;
+    left:120px;
     bottom:120px;
     width:90px;
     height:70px;
 
-    transition:left 1.2s ease;
+    opacity:0;
+    transform:translateX(-200px);
+
+    transition:transform 1s ease, opacity .6s ease;
 }
 
 #briefcase.show{
     opacity:1;
-    transform:scale(1);
+    transform:translateX(0);
 }
 
 .briefcase-body{
