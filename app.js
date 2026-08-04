@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    console.log("WebProfit Animation démarrée");
-
-    tl.from("#briefcase", {
-        opacity: 0,
+    gsap.from(".register-card", {
         y: 80,
-        duration: 1
+        opacity: 0,
+        duration: 1.2,
+        ease: "power3.out"
     });
 
 });
