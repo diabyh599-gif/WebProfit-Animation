@@ -28,10 +28,18 @@ tl
     transformOrigin: "bottom center"
 })
 
-.to("#register-container", {
-    opacity: 1,
-    y: -260,
-    scale: 1,
-    duration: 1,
-    ease: "back.out(1.7)"
+.fromTo("#register-container",
+
+{
+    y:0,
+    scale:.15,
+    opacity:0
+},
+
+{
+    y:-420,
+    scale:1,
+    opacity:1,
+    duration:1.2,
+    ease:"power4.out"
 });
