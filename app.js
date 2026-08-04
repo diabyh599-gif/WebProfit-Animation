@@ -1,30 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const tl = gsap.timeline();
+    console.log("WebProfit Animation démarrée");
 
-    tl
-
-    .from("#character", {
-        x: -400,
-        duration: 2,
-        ease: "power3.out"
-    })
-
-    .from("#briefcase", {
-        scale: 0,
+    tl.from("#briefcase", {
         opacity: 0,
-        duration: 0.8
-    })
-
-    .to("#briefcase", {
-        y: 40,
-        duration: 0.6
-    })
-
-    .to("#register-container", {
-        opacity: 1,
-        scale: 1,
-        duration: 0.7
+        y: 80
     });
 
 });
