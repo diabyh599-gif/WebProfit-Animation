@@ -5,6 +5,8 @@
     width:110px;
     height:70px;
     perspective:1000px;
+    overflow: visible;
+    position: absolute;
 }
 
 .briefcase-top{
