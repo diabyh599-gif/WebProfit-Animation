@@ -2,21 +2,15 @@
 
     position:absolute;
 
-    left:-220px;
+    left:-240px;
 
-    bottom:80px;
+    bottom:70px;
 
-    width:180px;
+    width:220px;
 
-    height:320px;
+    height:220px;
 
-    display:flex;
-
-    align-items:flex-end;
-
-    justify-content:center;
-
-    transition:left 1.2s ease;
+    z-index:20;
 
 }
 
