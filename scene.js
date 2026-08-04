@@ -1,7 +1,13 @@
-const tl = gsap.timeline({
-    defaults: {
-        ease: "power2.out"
-    }
+tl.fromTo("#character",
+
+{
+    x:-500
+},
+
+{
+    x:650,
+    duration:3,
+    ease:"power2.out"
 });
 
 tl
