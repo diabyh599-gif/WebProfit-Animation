@@ -4,17 +4,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
-
-    opacity:0;
-    transform:scale(.85);
-    pointer-events:none;
-    transition:all .6s ease;
-}
-
-#register-container.show{
-    opacity:1;
-    transform:scale(1);
-    pointer-évents:none;
 }
 
 .register-card{
