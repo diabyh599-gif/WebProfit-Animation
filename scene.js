@@ -22,8 +22,15 @@ tl
     duration: 0.5
 })
 
+.to(".briefcase-top", {
+    rotateX: -140,
+    duration: 0.8,
+    transformOrigin: "bottom center"
+})
+
 .from(".register-card", {
     opacity: 0,
+    y: 60,
     scale: 0.8,
-    duration: 0.7
+    duration: 0.8
 });
