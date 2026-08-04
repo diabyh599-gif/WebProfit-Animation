@@ -37,7 +37,7 @@ tl
 },
 
 {
-    y:-180,
+    y:-260,
     scale:1,
     opacity:1,
     duration:1.2,
