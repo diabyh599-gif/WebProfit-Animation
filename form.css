@@ -1,11 +1,18 @@
 #register-container{
     position:absolute;
-    inset:0;
+    left:50%;
+    bottom:160px;
+
+    transform:translateX(-50%) translateY(120px) scale(.7);
+
+    opacity:0;
+
     display:flex;
     justify-content:center;
     align-items:center;
-}
 
+    pointer-events:none;
+}
 .register-card{
     width:360px;
     background:#ffffff;
