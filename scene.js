@@ -28,9 +28,10 @@ tl
     transformOrigin: "bottom center"
 })
 
-.from(".register-card", {
-    opacity: 0,
-    y: 60,
-    scale: 0.8,
-    duration: 0.8
+.to("#register-container", {
+    opacity: 1,
+    y: -260,
+    scale: 1,
+    duration: 1,
+    ease: "back.out(1.7)"
 });
