@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     tl.from("#briefcase", {
         opacity: 0,
-        y: 80
+        y: 80,
+        duration: 1
     });
 
 });
