@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>WebProfit Animation</title>
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="variables.css">
-<link rel="stylesheet" href="layout.css">
-<link rel="stylesheet" href="character.css">
-<link rel="stylesheet" href="briefcase.css">
-<link rel="stylesheet" href="form.css">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="character.css">
+    <link rel="stylesheet" href="briefcase.css">
+    <link rel="stylesheet" href="form.css">
+
 </head>
 
 <body>
@@ -19,66 +23,67 @@
 
     <div class="background"></div>
 
-  <section class="stage">
-    
-    <div id="character">
+    <section class="stage">
 
-    <lottie-player
-        id="woman"
-        src="https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json"
-        background="transparent"
-        speed="1"
-        style="width:220px;height:220px"
-        autoplay
-    >
-    </lottie-player>
+        <!-- PERSONNAGE -->
+        <div id="character">
 
-</div>
-    
-<div id="briefcase">
+            <lottie-player
+                id="woman"
+                src="https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json"
+                background="transparent"
+                speed="1"
+                style="width:220px;height:220px"
+                autoplay>
+            </lottie-player>
 
-    <div class="briefcase-top"></div>
+        </div>
 
-    <div class="briefcase-bottom">
+        <!-- MALLETTE -->
+        <div id="briefcase">
 
+            <div class="briefcase-top"></div>
+
+            <div class="briefcase-bottom"></div>
+
+            <div class="briefcase-handle"></div>
+
+        </div>
+
+        <!-- FORMULAIRE -->
         <section id="register-container">
 
             <div class="register-card">
-                ...
+
+                <h2>Créer votre compte</h2>
+
+                <p>
+                    Bienvenue sur WebProfit AI.<br>
+                    Commencez votre expérience.
+                </p>
+
+                <input type="text" placeholder="Nom complet">
+
+                <input type="email" placeholder="Adresse email">
+
+                <input type="password" placeholder="Mot de passe">
+
+                <button>S'inscrire</button>
+
             </div>
 
         </section>
 
-    </div>
-
-    <div class="briefcase-handle"></div>
-
-</div>
-
-   <div class="register-card">
-
-    <h2>Créer votre compte</h2>
-
-    <p>
-        Bienvenue sur WebProfit AI.<br>
-        Commencez votre expérience.
-    </p>
-
-    <input type="text" placeholder="Nom complet">
-    <input type="email" placeholder="Adresse email">
-    <input type="password" placeholder="Mot de passe">
-
-    <button>S'inscrire</button>
-
-</div>
-    
-</section>
+    </section>
 
 </main>
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
 <script src="scene.js"></script>
+
 <script src="app.js"></script>
 
 </body>
