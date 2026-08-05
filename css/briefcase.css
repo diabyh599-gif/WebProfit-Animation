@@ -1,1 +1,75 @@
+#briefcase{
 
+    position:absolute;
+
+    left:50%;
+    bottom:90px;
+
+    transform:translateX(-50%);
+
+    width:110px;
+    height:70px;
+
+    z-index:15;
+
+}
+
+/* Partie supérieure */
+
+.briefcase-top{
+
+    position:absolute;
+
+    top:0;
+
+    width:100%;
+    height:35px;
+
+    background:#1f2937;
+
+    border-radius:12px 12px 0 0;
+
+    transform-origin:bottom center;
+
+}
+
+/* Partie inférieure */
+
+.briefcase-bottom{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+    height:35px;
+
+    background:#111827;
+
+    border-radius:0 0 12px 12px;
+
+}
+
+/* Poignée */
+
+.briefcase-handle{
+
+    position:absolute;
+
+    left:50%;
+
+    top:-12px;
+
+    transform:translateX(-50%);
+
+    width:36px;
+
+    height:12px;
+
+    border:4px solid #111827;
+
+    border-bottom:none;
+
+    border-radius:12px 12px 0 0;
+
+}
