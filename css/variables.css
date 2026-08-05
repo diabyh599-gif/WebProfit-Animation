@@ -1,1 +1,29 @@
+:root{
 
+    /* Couleurs */
+
+    --background:#f5f7fb;
+    --surface:#ffffff;
+
+    --primary:#111827;
+    --secondary:#374151;
+
+    --text:#111827;
+    --text-light:#6b7280;
+
+    --border:#e5e7eb;
+
+    --shadow:0 15px 40px rgba(0,0,0,.08);
+
+    /* Rayons */
+
+    --radius-sm:10px;
+    --radius-md:16px;
+    --radius-lg:24px;
+
+    /* Animation */
+
+    --duration:.6s;
+    --ease:cubic-bezier(.22,.61,.36,1);
+
+}
