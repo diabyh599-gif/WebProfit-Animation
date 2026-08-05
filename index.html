@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,20 +15,76 @@
     <link rel="stylesheet" href="css/briefcase.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/animations.css">
+
 </head>
 
 <body>
 
-    <main id="scene">
+<main id="scene">
 
-    </main>
+    <div class="background"></div>
 
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <section class="stage">
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <!-- PERSONNAGE -->
+        <div id="character">
 
-    <script src="js/scene.js"></script>
-    <script src="js/app.js"></script>
+            <lottie-player
+                id="woman"
+                src="https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json"
+                background="transparent"
+                speed="1"
+                style="width:220px;height:220px"
+                autoplay>
+            </lottie-player>
+
+        </div>
+
+        <!-- MALLETTE -->
+        <div id="briefcase">
+
+            <div class="briefcase-top"></div>
+
+            <div class="briefcase-bottom"></div>
+
+            <div class="briefcase-handle"></div>
+
+        </div>
+
+        <!-- FORMULAIRE -->
+        <section id="register-container">
+
+            <div class="register-card">
+
+                <h2>Créer votre compte</h2>
+
+                <p>
+                    Bienvenue sur WebProfit AI.<br>
+                    Commencez votre expérience.
+                </p>
+
+                <input type="text" placeholder="Nom complet">
+
+                <input type="email" placeholder="Adresse email">
+
+                <input type="password" placeholder="Mot de passe">
+
+                <button>S'inscrire</button>
+
+            </div>
+
+        </section>
+
+    </section>
+
+</main>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+<script src="js/scene.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 
