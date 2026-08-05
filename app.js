@@ -1,5 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-    tl.play();
-
+    console.log("JS fonctionne");
 });
